@@ -46,11 +46,11 @@
   },
   "dependencies": {
     "express": "^4.13.3",
-    "serve-favicon": "~2.3.0",
-    "react": "^0.14.0-rc1",
+    "react": "^0.14.9",
     "react-addons-update": "^0.14.0-rc1",
-    "react-dom": "^0.14.0-rc1",
+    "react-dom": "^0.14.9",
     "react-motion": "^0.2.7",
+    "serve-favicon": "^2.5.0",
     "webpack": "^1.9.6"
   },
   "engine": "^4.0.0"

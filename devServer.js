@@ -38,7 +38,7 @@ var server = app.listen(app.get('port'), function(err) {
         console.log('()===(                      (@===()'.magenta);
         console.log('     \'______________________\'|'.magenta);
         console.log('       |                     |'.magenta);
-        console.log('       |  Timo Clock         |'.magenta);
+        console.log('       |  Time Clock         |'.magenta);
         console.log('       |  is                 |'.magenta);
         console.log('       |  now                |'.magenta);
         console.log('       |  running!           |'.magenta);
