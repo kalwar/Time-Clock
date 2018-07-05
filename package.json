@@ -1,0 +1,57 @@
+{
+  "name": "time-tracker",
+  "version": "0.0.1",
+  "description": "A very simple time tracker component for freelancers using ReactJS",
+  "scripts": {
+    "clean": "rimraf dist/js",
+    "build:webpack": "NODE_ENV=production webpack --config webpack.config.prod.js",
+    "build": "npm run clean && npm run build:webpack",
+    "dev": "node devServer",
+    "start": "NODE_ENV=production node devServer",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kalwar/Timo-Clock.git"
+  },
+  "keywords": [
+    "timer",
+    "time",
+    "track time",
+    "tracker",
+    "time clock",
+    "freelancers",
+    "consultants"
+  ],
+  "author": "SK <appketo@gmail.com> (http://github.com/kalwar)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kalwar/Time-Clock/issues"
+  },
+  "homepage": "https://github.com/kalwar/Time-Clock",
+  "devDependencies": {
+    "babel-core": "^5.4.7",
+    "babel-eslint": "^3.1.9",
+    "babel-loader": "^5.1.2",
+    "babel-plugin-react-transform": "^1.1.1",
+    "colors": "^1.1.2",
+    "eslint": "^1.3.1",
+    "eslint-plugin-react": "^2.3.0",
+    "react-transform-catch-errors": "^1.0.0",
+    "react-transform-hmr": "^1.0.0",
+    "redbox-react": "^1.0.1",
+    "rimraf": "^2.4.3",
+    "webpack-dev-middleware": "^1.2.0",
+    "webpack-hot-middleware": "^2.0.0"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "serve-favicon": "~2.3.0",
+    "react": "^0.14.0-rc1",
+    "react-addons-update": "^0.14.0-rc1",
+    "react-dom": "^0.14.0-rc1",
+    "react-motion": "^0.2.7",
+    "webpack": "^1.9.6"
+  },
+  "engine": "^4.0.0"
+}
