@@ -1,4 +1,4 @@
-Timo Clock
+Time Clock
 =====================
 
 ### A very simple time tracker component for freelancers using React
